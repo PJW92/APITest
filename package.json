@@ -1,0 +1,26 @@
+{
+  "name": "apitestforkfinder",
+  "version": "1.0.0",
+  "description": "apiTestPW",
+  "keywords": [
+    "api"
+  ],
+  "homepage": "https://github.com/PJW92/APITest#readme",
+  "bugs": {
+    "url": "https://github.com/PJW92/APITest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PJW92/APITest.git"
+  },
+  "license": "ISC",
+  "author": "paige walters",
+  "type": "commonjs",
+  "main": "task.js",
+  "scripts": {
+    "test": "GET"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}

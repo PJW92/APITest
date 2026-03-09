@@ -31,7 +31,7 @@ async function fetchPosts() {
         }
 
     const endpoint = `${baseUrl}/posts`; 
-    console.log('Fetching data from: ${endpoint}'); 
+    console.log('Fetching data from: ${BASE_URL}'); 
     const posts = await httpsGet(endpoint); 
     console.log(`Successfully retrieved ${posts.length} posts\n`);
     console.log('Titles:'); 
